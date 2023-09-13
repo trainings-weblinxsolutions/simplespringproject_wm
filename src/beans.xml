@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans
+	xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean id="bean1" class="com.saliljavatrainings.Student">
+<property name="firstName" value="Abhishek Birla"></property>
+<property name="id" value="123"></property>
+</bean>
+
+
+<bean id="bean2" class="com.saliljavatrainings.Student">
+<property name="firstName" value="Rohit Shetty"></property>
+<property name="id" value="234"></property>
+</bean>
+
+
+<bean id="bean3" class="com.saliljavatrainings.Student">
+</bean>
+
+
+<bean id="bean4" class="com.saliljavatrainings.Student">
+<property name="firstName" value="Sandeep"></property>
+
+</bean>
+
+<bean id="bean5" class="com.saliljavatrainings.Student">
+<property name="age" value="30"></property>
+
+</bean>
+
+
+</beans>
